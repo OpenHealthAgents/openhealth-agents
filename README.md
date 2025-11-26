@@ -24,7 +24,6 @@ We solve the "Trust Gap" in medical AI by ensuring every agent action is:
 
 The platform follows a **Layered Safety Architecture**:
 
-```mermaid
 graph TD
     User((User/Clinician)) <--> UI[Interface Layer<br/>(API / Dashboard)]
     
@@ -51,7 +50,6 @@ graph TD
     Orch --> Planner
     Planner --> Tools
     Tools --> FHIR
-```
 
 ---
 
